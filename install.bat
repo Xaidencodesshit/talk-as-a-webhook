@@ -15,4 +15,6 @@ if %errorlevel% equ 0 (
     echo Failed to install Requests.
 )
 
+echo Requests was installed. Open the talkasawebhook.py
+
 pause
