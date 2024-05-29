@@ -5,14 +5,14 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-echo Installing requests library...
+echo Installing requests...
 pip install requests
 
 pip show requests >nul 2>&1
 if %errorlevel% equ 0 (
-    echo Requests library has been successfully installed.
+    echo Requests has been successfully installed.
 ) else (
-    echo Failed to install Requests library.
+    echo Failed to install Requests.
 )
 
 pause
